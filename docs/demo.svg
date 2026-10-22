@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1016" viewBox="0 0 960 1016" role="img" aria-label="ads-insights-agent · make demo">
+<title>ads-insights-agent · make demo</title>
+<style>text{font:13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#d6deeb;white-space:pre}.b{font-weight:700;fill:#ffffff}.d{fill:#8b949e}.g{fill:#3fb950}.r{fill:#f85149}.p{fill:#79c0ff}.l{opacity:0;animation-duration:17.32s;animation-iteration-count:infinite;animation-timing-function:step-end}@keyframes k0{0%{opacity:0}2.309%{opacity:1}99.5%{opacity:0}}@keyframes k1{0%{opacity:0}2.309%{opacity:1}99.5%{opacity:0}}@keyframes k2{0%{opacity:0}3.002%{opacity:1}99.5%{opacity:0}}@keyframes k3{0%{opacity:0}8.776%{opacity:1}99.5%{opacity:0}}@keyframes k4{0%{opacity:0}10.277%{opacity:1}99.5%{opacity:0}}@keyframes k5{0%{opacity:0}10.970%{opacity:1}99.5%{opacity:0}}@keyframes k6{0%{opacity:0}11.663%{opacity:1}99.5%{opacity:0}}@keyframes k7{0%{opacity:0}15.185%{opacity:1}99.5%{opacity:0}}@keyframes k8{0%{opacity:0}15.878%{opacity:1}99.5%{opacity:0}}@keyframes k9{0%{opacity:0}16.570%{opacity:1}99.5%{opacity:0}}@keyframes k10{0%{opacity:0}17.263%{opacity:1}99.5%{opacity:0}}@keyframes k11{0%{opacity:0}17.956%{opacity:1}99.5%{opacity:0}}@keyframes k12{0%{opacity:0}18.649%{opacity:1}99.5%{opacity:0}}@keyframes k13{0%{opacity:0}19.342%{opacity:1}99.5%{opacity:0}}@keyframes k14{0%{opacity:0}20.035%{opacity:1}99.5%{opacity:0}}@keyframes k15{0%{opacity:0}23.614%{opacity:1}99.5%{opacity:0}}@keyframes k16{0%{opacity:0}26.212%{opacity:1}99.5%{opacity:0}}@keyframes k17{0%{opacity:0}26.905%{opacity:1}99.5%{opacity:0}}@keyframes k18{0%{opacity:0}27.598%{opacity:1}99.5%{opacity:0}}@keyframes k19{0%{opacity:0}29.330%{opacity:1}99.5%{opacity:0}}@keyframes k20{0%{opacity:0}30.023%{opacity:1}99.5%{opacity:0}}@keyframes k21{0%{opacity:0}30.716%{opacity:1}99.5%{opacity:0}}@keyframes k22{0%{opacity:0}31.409%{opacity:1}99.5%{opacity:0}}@keyframes k23{0%{opacity:0}32.102%{opacity:1}99.5%{opacity:0}}@keyframes k24{0%{opacity:0}32.794%{opacity:1}99.5%{opacity:0}}@keyframes k25{0%{opacity:0}33.487%{opacity:1}99.5%{opacity:0}}@keyframes k26{0%{opacity:0}34.180%{opacity:1}99.5%{opacity:0}}@keyframes k27{0%{opacity:0}34.873%{opacity:1}99.5%{opacity:0}}@keyframes k28{0%{opacity:0}35.566%{opacity:1}99.5%{opacity:0}}@keyframes k29{0%{opacity:0}36.259%{opacity:1}99.5%{opacity:0}}@keyframes k30{0%{opacity:0}36.952%{opacity:1}99.5%{opacity:0}}@keyframes k31{0%{opacity:0}40.473%{opacity:1}99.5%{opacity:0}}@keyframes k32{0%{opacity:0}41.166%{opacity:1}99.5%{opacity:0}}@keyframes k33{0%{opacity:0}41.859%{opacity:1}99.5%{opacity:0}}@keyframes k34{0%{opacity:0}42.552%{opacity:1}99.5%{opacity:0}}@keyframes k35{0%{opacity:0}43.245%{opacity:1}99.5%{opacity:0}}@keyframes k36{0%{opacity:0}43.938%{opacity:1}99.5%{opacity:0}}@keyframes k37{0%{opacity:0}44.630%{opacity:1}99.5%{opacity:0}}@keyframes k38{0%{opacity:0}45.323%{opacity:1}99.5%{opacity:0}}@keyframes k39{0%{opacity:0}46.016%{opacity:1}99.5%{opacity:0}}@keyframes k40{0%{opacity:0}46.709%{opacity:1}99.5%{opacity:0}}@keyframes k41{0%{opacity:0}47.402%{opacity:1}99.5%{opacity:0}}@keyframes k42{0%{opacity:0}48.095%{opacity:1}99.5%{opacity:0}}@keyframes k43{0%{opacity:0}51.848%{opacity:1}99.5%{opacity:0}}@keyframes k44{0%{opacity:0}52.540%{opacity:1}99.5%{opacity:0}}@keyframes k45{0%{opacity:0}58.314%{opacity:1}99.5%{opacity:0}}@keyframes k46{0%{opacity:0}64.088%{opacity:1}99.5%{opacity:0}}@keyframes k47{0%{opacity:0}64.781%{opacity:1}99.5%{opacity:0}}@keyframes k48{0%{opacity:0}65.473%{opacity:1}99.5%{opacity:0}}@keyframes k49{0%{opacity:0}66.166%{opacity:1}99.5%{opacity:0}}@keyframes k50{0%{opacity:0}66.859%{opacity:1}99.5%{opacity:0}}@keyframes k51{0%{opacity:0}67.552%{opacity:1}99.5%{opacity:0}}@keyframes k52{0%{opacity:0}68.245%{opacity:1}99.5%{opacity:0}}</style>
+<rect width="960" height="1016" rx="8" fill="#0d1117"/>
+<rect width="960" height="30" rx="8" fill="#161b22"/><rect y="22" width="960" height="8" fill="#161b22"/>
+<circle cx="18" cy="15" r="6" fill="#ff5f57"/><circle cx="38" cy="15" r="6" fill="#febc2e"/><circle cx="58" cy="15" r="6" fill="#28c840"/>
+<text x="480.0" y="20" text-anchor="middle" style="fill:#8b949e;font-size:12px">ads-insights-agent · make demo</text>
+<text class="l" style="animation-name:k0" x="16" y="60"><tspan class="p">$</tspan> make demo</text>
+<text class="l" style="animation-name:k1" x="16" y="78">No ANTHROPIC_API_KEY: using the scripted demo model. Set the key to run the same demo with Claude.</text>
+<text class="l" style="animation-name:k2" x="16" y="96">Starting the stack (API, worker, Postgres) and seeding demo ad data…</text>
+<text class="l" style="animation-name:k3" x="16" y="114">   seeded: { campaigns: 18, rows: 1590 }</text>
+<text class="l" style="animation-name:k4" x="16" y="132"></text>
+<text class="l" style="animation-name:k5" x="16" y="150"><tspan class="b">1. A question is queued, a worker runs the agent loop with the scripted demo model (no API key set), the client polls…</tspan></text>
+<text class="l" style="animation-name:k6" x="16" y="168">   <tspan class="g">✓</tspan> queued: &quot;Son günlerde performansı aniden bozulan bir kampanya var mı?&quot; → job 4f4ccc60…</text>
+<text class="l" style="animation-name:k7" x="16" y="186">   <tspan class="d">tool detect_anomalies(metric=ctr, recent_days=7, baseline_days=28, threshold_pct=40) → ok</tspan></text>
+<text class="l" style="animation-name:k8" x="16" y="204">   <tspan class="d">answer: [demo model] &quot;TikTok UGC Video - Kombin&quot; kampanyasında son 7 günde CTR %0.49 ile önceki 28 günün ortalamas…</tspan></text>
+<text class="l" style="animation-name:k9" x="16" y="222">   <tspan class="d">2 model calls · 0 in / 0 out tokens · $0.0000</tspan></text>
+<text class="l" style="animation-name:k10" x="16" y="240">   <tspan class="g">✓</tspan> the agent queried the database through detect_anomalies</text>
+<text class="l" style="animation-name:k11" x="16" y="258">   <tspan class="g">✓</tspan> it found the planted CTR collapse in the TikTok UGC campaign</text>
+<text class="l" style="animation-name:k12" x="16" y="276"></text>
+<text class="l" style="animation-name:k13" x="16" y="294"><tspan class="b">2. The same Idempotency-Key returns the same job instead of running (and paying for) it twice</tspan></text>
+<text class="l" style="animation-name:k14" x="16" y="312">   <tspan class="g">✓</tspan> queued: &quot;Son 7 günde ROAS&#x27;ı en yüksek kampanyam hangisi?&quot; → job bdd1211e…</text>
+<text class="l" style="animation-name:k15" x="16" y="330">   <tspan class="g">✓</tspan> 200 with the original job id</text>
+<text class="l" style="animation-name:k16" x="16" y="348"></text>
+<text class="l" style="animation-name:k17" x="16" y="366"><tspan class="b">3. Writes are proposals: the agent cannot pause a campaign, a person approves it</tspan></text>
+<text class="l" style="animation-name:k18" x="16" y="384">   <tspan class="g">✓</tspan> queued: &quot;Display - Prospecting kampanyasını durdur, hiç satış getirmiyor.&quot; → job cd3ce49c…</text>
+<text class="l" style="animation-name:k19" x="16" y="402">   <tspan class="d">tool list_campaigns(status=all) → ok</tspan></text>
+<text class="l" style="animation-name:k20" x="16" y="420">   <tspan class="d">tool propose_action(kind=pause_campaign, reason=Kullanıcı durdurulmasını istedi; harcama dönüşüm getirmiyor., …) →…</tspan></text>
+<text class="l" style="animation-name:k21" x="16" y="438">   <tspan class="d">answer: [demo model] &quot;Display - Prospecting&quot; için durdurma önerisi oluşturdum (id 6b94d487-e65f-4ad1-96ba-3de816c7…</tspan></text>
+<text class="l" style="animation-name:k22" x="16" y="456">   <tspan class="d">3 model calls · 0 in / 0 out tokens · $0.0000</tspan></text>
+<text class="l" style="animation-name:k23" x="16" y="474">   <tspan class="d">→ 200 [{&quot;id&quot;: &quot;6b94d487-e65f-4ad1-96ba-3de816c709ad&quot;, &quot;kind&quot;: &quot;pause_campaign&quot;, &quot;campaign_id&quot;: &quot;c09&quot;, &quot;campaign_na…</tspan></text>
+<text class="l" style="animation-name:k24" x="16" y="492">   <tspan class="g">✓</tspan> a pending pause_campaign proposal exists; the campaign itself is untouched</text>
+<text class="l" style="animation-name:k25" x="16" y="510">   <tspan class="d">→ 200 {&quot;id&quot;: &quot;6b94d487-e65f-4ad1-96ba-3de816c709ad&quot;, &quot;status&quot;: &quot;approved&quot;}</tspan></text>
+<text class="l" style="animation-name:k26" x="16" y="528">   <tspan class="g">✓</tspan> approved: the change is applied in a locked transaction</text>
+<text class="l" style="animation-name:k27" x="16" y="546">   <tspan class="g">✓</tspan> approving the same proposal again is rejected (409)</text>
+<text class="l" style="animation-name:k28" x="16" y="564"></text>
+<text class="l" style="animation-name:k29" x="16" y="582"><tspan class="b">4. Guardrails are code, not prompt: tripling a budget is refused, the agent proposes the allowed maximum</tspan></text>
+<text class="l" style="animation-name:k30" x="16" y="600">   <tspan class="g">✓</tspan> queued: &quot;Marka Araması kampanyasının günlük bütçesini 3 katına çıkar.&quot; → job 4d02084c…</text>
+<text class="l" style="animation-name:k31" x="16" y="618">   <tspan class="d">tool list_campaigns(status=all) → ok</tspan></text>
+<text class="l" style="animation-name:k32" x="16" y="636">   <tspan class="d">tool propose_action(kind=change_budget, reason=Kullanıcı bütçe artışı istedi., campaign_id=c03, new_daily_budg…) →…</tspan></text>
+<text class="l" style="animation-name:k33" x="16" y="654">   <tspan class="d">tool propose_action(kind=change_budget, reason=İstenen artış ±%50 sınırını aşıyor; izin verilen en yüksek artı…) →…</tspan></text>
+<text class="l" style="animation-name:k34" x="16" y="672">   <tspan class="d">answer: [demo model] 800 TL&#x27;den 2400 TL&#x27;ye çıkarmak ±%50 kuralına takıldı. Bunun yerine 1200 TL (+%50) önerisi olu…</tspan></text>
+<text class="l" style="animation-name:k35" x="16" y="690">   <tspan class="d">4 model calls · 0 in / 0 out tokens · $0.0000</tspan></text>
+<text class="l" style="animation-name:k36" x="16" y="708">   <tspan class="g">✓</tspan> the tool rejected the change (±50% limit)</text>
+<text class="l" style="animation-name:k37" x="16" y="726">   <tspan class="g">✓</tspan> pending proposal(s) stay within +50%: [1200] TRY (current 800)</text>
+<text class="l" style="animation-name:k38" x="16" y="744"></text>
+<text class="l" style="animation-name:k39" x="16" y="762"><tspan class="b">5. Tenant isolation: another account cannot see or approve these proposals</tspan></text>
+<text class="l" style="animation-name:k40" x="16" y="780">   <tspan class="g">✓</tspan> acc_ev sees none of acc_moda&#x27;s proposals</text>
+<text class="l" style="animation-name:k41" x="16" y="798">   <tspan class="g">✓</tspan> approving it as acc_ev: &#x27;action not found&#x27;</text>
+<text class="l" style="animation-name:k42" x="16" y="816">   <tspan class="g">✓</tspan> an unknown account is rejected</text>
+<text class="l" style="animation-name:k43" x="16" y="834"></text>
+<text class="l" style="animation-name:k44" x="16" y="852"><tspan class="b">6. The worker is stopped: requests are still accepted and wait in the queue</tspan></text>
+<text class="l" style="animation-name:k45" x="16" y="870">   <tspan class="g">✓</tspan> job is &#x27;queued&#x27; while no worker is running</text>
+<text class="l" style="animation-name:k46" x="16" y="888"></text>
+<text class="l" style="animation-name:k47" x="16" y="906"><tspan class="b">7. The worker is back and picks the job up</tspan></text>
+<text class="l" style="animation-name:k48" x="16" y="924">   <tspan class="g">✓</tspan> done after 1 attempt(s): [demo model] Hesapta 12 kampanya var, 10 tanesi aktif. Hangi kampanyayı incelememi iste…</text>
+<text class="l" style="animation-name:k49" x="16" y="942"></text>
+<text class="l" style="animation-name:k50" x="16" y="960"><tspan class="b g">Demo finished: queued runs with polling, idempotency, real SQL tools, human approval, code guardrails, tenant isolati…</tspan></text>
+<text class="l" style="animation-name:k51" x="16" y="978"></text>
+<text class="l" style="animation-name:k52" x="16" y="996">Explore: requests.http · API http://localhost:3001 · stop → make down</text>
+</svg>

@@ -1,8 +1,12 @@
 # ads-insights-agent
 
+[![ci](https://github.com/msalimcengiz/ads-insights-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/msalimcengiz/ads-insights-agent/actions/workflows/ci.yml)
+
 An AI analyst for advertising accounts, built on **Claude** (Anthropic API, `claude-opus-5-5`). A business owner asks in plain Turkish or English: *"Which campaign had the best ROAS last week?"*, *"Did anything break recently?"*, *"Pause the campaign that isn't converting."* The agent answers by querying the account's real campaign data with SQL tools.
 
 The model **cannot change anything itself**. Each change it suggests becomes a proposal that a person approves, and the proposals are checked against guardrails enforced in code.
+
+![`make demo` on a fresh machine: every step is checked and prints ✓ or stops with ✗](docs/demo.svg)
 
 ## Try it in 1 minute (no API key needed)
 
