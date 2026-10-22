@@ -1,0 +1,65 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      run_evals:
+        description: Run the paid evals against the Claude API
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env: { POSTGRES_USER: ads, POSTGRES_PASSWORD: ads, POSTGRES_DB: ads }
+        ports: ["5435:5432"]
+        options: >-
+          --health-cmd "pg_isready -U ads" --health-interval 2s --health-retries 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run lint
+      - name: tests (tools against Postgres, agent loop with a scripted model)
+        run: npm test
+      - run: docker build -t ads-insights-agent .
+
+  evals:
+    # Manual only: each run spends API credits.
+    if: github.event_name == 'workflow_dispatch' && inputs.run_evals
+    needs: check
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env: { POSTGRES_USER: ads, POSTGRES_PASSWORD: ads, POSTGRES_DB: ads }
+        ports: ["5435:5432"]
+        options: >-
+          --health-cmd "pg_isready -U ads" --health-interval 2s --health-retries 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run eval
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: eval-report
+          path: evals/results/latest.md

@@ -1,0 +1,38 @@
+{
+  "name": "ads-insights-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Claude-powered ad campaign analyst: tenant-scoped SQL tools, human approval for every write, cost tracking and an eval suite.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome check .",
+    "test": "vitest run",
+    "seed": "tsx src/seed.ts",
+    "start": "node dist/server.js",
+    "worker": "node dist/worker.js",
+    "eval": "tsx evals/run.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.1.0",
+    "@hono/node-server": "^2.1.5",
+    "@hono/zod-validator": "^0.9.1",
+    "hono": "^4.13.13",
+    "pg": "^8.23.1",
+    "pino": "^10.4.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.6.2",
+    "@types/node": "^26.6.5",
+    "@types/pg": "^8.23.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+}

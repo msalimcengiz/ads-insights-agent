@@ -1,0 +1,36 @@
+# Example requests for the VS Code "REST Client" extension or JetBrains HTTP Client.
+# Start first: make demo (once, it seeds data) or AGENT_MODEL=demo make up
+# Real Claude instead of the scripted demo model: ANTHROPIC_API_KEY=... make up
+@base = http://localhost:3001
+@account = acc_moda
+
+### Ask a question → 202 {run_id, job_id}
+POST {{base}}/v1/runs
+x-account-id: {{account}}
+Content-Type: application/json
+Idempotency-Key: ask-1
+
+{"message": "Son günlerde performansı aniden bozulan bir kampanya var mı?"}
+
+### Wait for the answer (long-poll up to 30 s); replace the job id
+GET {{base}}/v1/jobs/REPLACE-WITH-JOB-ID?wait=30
+x-account-id: {{account}}
+
+### Follow-up in the same conversation; replace the run id
+POST {{base}}/v1/runs/REPLACE-WITH-RUN-ID/messages
+x-account-id: {{account}}
+Content-Type: application/json
+
+{"message": "Display - Prospecting kampanyasını durdur."}
+
+### Proposals waiting for a human
+GET {{base}}/v1/actions?status=pending
+x-account-id: {{account}}
+
+### Approve (or /reject) one; replace the action id
+POST {{base}}/v1/actions/REPLACE-WITH-ACTION-ID/approve
+x-account-id: {{account}}
+
+### Another tenant sees nothing of acc_moda
+GET {{base}}/v1/actions
+x-account-id: acc_ev
